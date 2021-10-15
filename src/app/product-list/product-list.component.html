@@ -1,0 +1,16 @@
+<div class="items-list">
+  <div class="card item" style="width: 18rem;"  *ngFor="let c of coffee">
+    <img class="card-img-top" src="{{c.image}}" alt="Card image">
+    <div class="card-body">
+      <h5 class="card-title">{{c.name}}</h5>
+      <p class="card-text">{{c.description}}</p>
+
+      <div class="input-group mb-3">
+        <input [(ngModel)]="c.amount" type="number" class="form-control" placeholder="Amount in kg" aria-label="Amount" aria-describedby="basic-addon2">
+        <div class="input-group-append">
+          <button (click)="addToCart(c)" class="btn btn-primary" type="button">Add to cart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

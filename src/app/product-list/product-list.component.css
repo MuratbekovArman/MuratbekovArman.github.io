@@ -1,0 +1,10 @@
+.items-list {
+  display: flex;
+  align-content: center;
+  width: 50%;
+  margin: auto;
+}
+
+.item {
+  margin: 5px;
+}
