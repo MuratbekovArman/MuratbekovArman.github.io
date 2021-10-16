@@ -49,5 +49,36 @@ export const COFFEE = [
     amount: 0,
     total: 0
   },
+  {
+    id: 6,
+    name: 'AmazonFresh Just Bright Whole Bean Coffee, Light Roast',
+    price: 15.36,
+    description: 'Light roast with a crisp and clean flavor.One 32-ounce bag of whole bean coffee.100% Arabica coffee grown in Central and South America.',
+    image: 'https://m.media-amazon.com/images/I/81WeCMEIqvL._SL1500_.jpg',
+    rating: 3.9,
+    amount: 0,
+    total: 0
+  },
+  {
+    id: 7,
+    name: 'Lavazza Top Class Whole Bean Coffee Blend, Medium Espresso Roast',
+    price: 114.94,
+    description: 'Full-bodied medium espresso roast with smooth, balanced flavor and notes of bitter chocolate and dried fruit',
+    image: 'https://m.media-amazon.com/images/I/31HW71yamqL.jpg',
+    rating: 4.2,
+    amount: 0,
+    total: 0
+  },
+  {
+    id: 8,
+    name: 'SF Bay Coffee Fog Chaser Whole Bean 2LB',
+    price: 18.94,
+    description: 'FOG CHASER: A blend of Central & South American beans helps lift away the morning "fog." This full-bodied, well balanced medium dark roast coffee has notes of milk chocolate, toffee, & sweet mandarin.',
+    image: 'https://m.media-amazon.com/images/I/61SJrkj+bvS._SL1500_.jpg',
+    rating: 4.2,
+    amount: 0,
+    total: 0
+  },
+
 
 ];
