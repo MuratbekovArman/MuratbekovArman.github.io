@@ -24,12 +24,14 @@
     <td>${{getSum()}}</td>
   </tr>
   </tbody>
-  <button (click)="makeOrder()">Order</button>
+  <div class="btn-container">
+    <button class="btn btn-dark" (click)="makeOrder()">Order</button>
+  </div>
 </table>
 
 <div *ngIf="orders.length != 0">
   <div *ngFor="let order of orders">
-    <h3>Order #{{order.id}} is {{order.status}}</h3>
+    <h3 class="order-status">Order #{{order.id}} is {{order.status}}</h3>
   </div>
 </div>
 
